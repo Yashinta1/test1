@@ -154,8 +154,75 @@ src="ic-baseline-space.svg" alt="ic:baseline-space-dashboard" />
             <div className="graph-0ee inter-extra-bold-white-16px">
                 {graph0ee}
             </div>
-            <div className="group-39 inter-extra-bold-white-8px"></div>
+            <div className="group-39 inter-extra-bold-white-8px">
+                <div className="flex-col-1">
+                    <div className="rectangle-12"></div>
+                    <div className="rectangle-14"></div>
+                </div>
+                <div className="flex-col-2">
+                    <div className="running">
+                        {running1}
+                    </div>
+                    <div className="area-pooling-2">
+                        {areaPooling21}
+                    </div>
+                </div>
+                <div className="flex-col-3">
+                    <div className="rectangle-15"></div>
+                    <div className="rectangle-16"></div>
+                </div>
+                <div className="area-pooling-container">
+                    <div className="area-pooling-3">
+                        {areaPooling31}
+                    </div>
+                    <div className="area-pooling-4">
+                        {areaPooling41}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className="overlap-group-container-1">
+            <div className="overlap-group17">
+                <div className="mttr intar-extra-bold-white-20px">
+                    {mttr}
+                </div>
+                <div className="number-1 inter-extra-bold-white-48px">
+                    {number1}
+                </div>
+            </div>
+            <div className="overlap-group19">
+                <div className="mtbf inter-extra-bold-white-20px">
+                    {mtbf}
+                </div>
+                <h1 className="number-2 inter-extra-bold-white-48px">
+                    {number2}
+                </h1>
+            </div>
+        </div>
+    </div>
+    <div className="overlap-group8">
+        <div className="area-pooling-1-status inter-extra-bold-white-20px">
+            {areaPooling1Status}
+        </div>
+        <div className="group-106">
+            <div className="main-line inter-extra-bold-white-12px">
+                {mainLine}
+            </div>
+            <div className="group">
+                <div className="rectangle"></div>
+                <div className="rectangle-2"></div>
+                <div className="rectangle"></div>
+                <div className="rectangle-2"></div>
+                <div className="rectangle-23"></div>
+            </div>
+        </div>
+        <div className="group-107">
+            <div className="streering-handle inter-extra-bold-white-12px">
+                {streeingHandle}
+            </div>
+            <div className="group">
+            <div className="rectangle"></div>
+            </div>
         </div>
     </div>
 </div>
-)};
